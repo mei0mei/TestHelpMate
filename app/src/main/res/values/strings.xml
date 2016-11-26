@@ -4,12 +4,12 @@
     <string name="number_hint">Numer telefonu</string>
     <string name="adress_hint">Adres</string>
     <string name="checkbox_text">Chcę świadczyć usługi</string>
-    <string name="category1">Hydraulika:</string>
-    <string name="category2">Elektryka:</string>
-    <string name="category3">Pomoc domowa:</string>
-    <string name="category4">Ogrodnictwo:</string>
-    <string name="category5">Urządzenia elektroniczne:</string>
-    <string name="category6">Remonty:</string>
+    <string name="hydraulika">Hydraulika:</string>
+    <string name="elektryka">Elektryka:</string>
+    <string name="pomocDomowa">Pomoc domowa:</string>
+    <string name="ogrodnictwo">Ogrodnictwo:</string>
+    <string name="urzadzeniaElektroniczne">Urządzenia elektroniczne:</string>
+    <string name="remonty">Remonty:</string>
     <string name="category_text">Wybierz kategorie usług, którymi się zajmujesz:</string>
     <string name="location_text">Wybierz obszar świadczenia usług:</string>
 
