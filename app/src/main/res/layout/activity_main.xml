@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:text=""
-            android:hint="Imię i nazwisko lub nazwa firmy"
+            android:hint="@string/name_hint"
             android:id="@+id/editText" />
 
     </LinearLayout>
