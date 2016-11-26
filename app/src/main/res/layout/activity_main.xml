@@ -76,7 +76,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/category_text"
-            android:id="@+id/categoryText"/>
+            android:id="@+id/categoryText"
+            android:textStyle="bold"
+            android:layout_margin_Top="5dp"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -91,7 +93,8 @@
 
             <Spinner
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"></Spinner>
+                android:layout_height="wrap_content"
+                android:id="@+id/Spinner1"></Spinner>
 
         </LinearLayout>
 
@@ -108,7 +111,8 @@
 
             <Spinner
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"></Spinner>
+                android:layout_height="wrap_content"
+                android:id="@+id/Spinner2"></Spinner>
 
         </LinearLayout>
 
@@ -125,7 +129,8 @@
 
             <Spinner
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"></Spinner>
+                android:layout_height="wrap_content"
+                android:id="@+id/Spinner3"></Spinner>
 
         </LinearLayout>
 
@@ -142,7 +147,8 @@
 
             <Spinner
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"></Spinner>
+                android:layout_height="wrap_content"
+                android:id="@+id/Spinner4"></Spinner>
 
         </LinearLayout>
 
@@ -159,7 +165,8 @@
 
             <Spinner
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"></Spinner>
+                android:layout_height="wrap_content"
+                android:id="@+id/Spinner5"></Spinner>
 
         </LinearLayout>
 
@@ -177,7 +184,8 @@
 
             <Spinner
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"></Spinner>
+                android:layout_height="wrap_content"
+                android:id="@+id/Spinner6"></Spinner>
 
         </LinearLayout>
 
