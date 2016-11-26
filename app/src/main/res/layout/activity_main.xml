@@ -13,31 +13,51 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/linear_layout1">
+        android:orientation="horizontal"
+        android:id="@+id/linearLayoutUser1"
+        >
 
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:src="@drawable/person" />
+            android:src="@drawable/person"
+            />
 
 
 
     </LinearLayout>
 
     <LinearLayout
+        android:orientation="vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/linear_layout1">
+        android:id="@+id/linearLayoutUser2"
+        android:layout_below="@+id/linearLayoutUser1">
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text=""
             android:hint="@string/name_hint"
-            android:id="@+id/editText" />
+            android:id="@+id/editText"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="@string/number_hint"
+            android:id="@+id/phoneNumber" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPostalAddress"
+            android:hint="@string/adress_hint"
+            android:id="@+id/postalAdress" />
 
     </LinearLayout>
+
 
 
 
