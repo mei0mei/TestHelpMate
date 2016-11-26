@@ -3,4 +3,14 @@
     <string name="name_hint">Imię i nazwisko lub nazwa firmy</string>
     <string name="number_hint">Numer telefonu</string>
     <string name="adress_hint">Adres</string>
+    <string name="checkbox_text">Chcę świadczyć usługi</string>
+    <string name="category1">Hydraulika:</string>
+    <string name="category2">Elektryka:</string>
+    <string name="category3">Pomoc domowa:</string>
+    <string name="category4">Ogrodnictwo:</string>
+    <string name="category5">Urządzenia elektroniczne:</string>
+    <string name="category6">Remonty:</string>
+    <string name="category_text">Wybierz kategorie usług, którymi się zajmujesz:</string>
+    <string name="location_text">Wybierz obszar świadczenia usług:</string>
+
 </resources>
